@@ -13,7 +13,8 @@ var http = require('http');
  */
 
 var port = normalizePort(process.env.PORT || '9527');
-var domain = '192.168.2.82'
+//改变成自己电脑上的IP地址，也可以不用这个地方，只是为了好看
+var domain = '192.168.171.145'
 
 
 
